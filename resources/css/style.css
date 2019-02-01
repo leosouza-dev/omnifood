@@ -12,3 +12,10 @@ html{
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+
+/*row - like a container in this case*/
+.row{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
