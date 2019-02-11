@@ -188,10 +188,20 @@ header{
     border-bottom: 2px solid #e67e22;
  }
 
+ /*---------------------------------------------*/
+/* FEATURES */
+/*---------------------------------------------*/
+.section-features .long-copy{
+    margin-bottom: 30px;
+}
 
 /*---------------------------------------------*/
 /* MEALS */
 /*---------------------------------------------*/
+
+.section-meals{
+    padding: 0;
+}
 
  .meals-showcase{
     list-style: none;
@@ -207,9 +217,19 @@ header{
  .meal-photo{
      width: 100%;
      margin: 0;
+     overflow: hidden;
+     background-color: black;
  }
 
  .meal-photo img{
+     opacity: 0.6;
      width: 100%;
      height: auto;
+     transform: scale(1.15);
+     transition: all 0.5s;
+ }
+
+ .meal-photo img:hover{
+     transform: scale(1.03);
+     opacity: 1;
  }
